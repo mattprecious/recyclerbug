@@ -1,0 +1,20 @@
+apply plugin: 'com.android.application'
+
+dependencies {
+  compile 'com.android.support:support-v4:21.0.3'
+  compile 'com.android.support:recyclerview-v7:21.0.3'
+}
+
+android {
+  compileSdkVersion 21
+  buildToolsVersion "21.1.2"
+
+  defaultConfig {
+    minSdkVersion 15
+    targetSdkVersion 21
+    applicationId "com.mattprecious.recyclerbug"
+
+    versionCode 1
+    versionName "1.0"
+  }
+}
